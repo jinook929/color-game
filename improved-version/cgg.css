@@ -1,0 +1,69 @@
+body {
+	background: #232323;
+	font-family: 'Roboto';
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	background: steelblue;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	letter-spacing: 2px;
+	line-height: 100%;
+}
+
+.square {
+	background: purple;
+	margin: 0;
+	width: 30%;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 20%;
+	transition: all .7s;
+}
+
+.stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+
+}
+
+.container {
+	max-width: 640px;
+	margin: 10px auto;
+}
+
+div span {
+	font-family: 'Roboto';
+	display:inline-block;
+	width: 20%;
+	letter-spacing: 1px;
+	font-size: inherit;
+}
+
+button {
+	color: Steelblue;
+	font-family: 'Roboto';
+	font-weight: 900;
+	border: none;
+	background: none;
+	outline: none;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all .5s;
+	height: 100%;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+.selected {
+	color: white;
+	background: steelblue;	
+}

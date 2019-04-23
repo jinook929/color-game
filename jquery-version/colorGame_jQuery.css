@@ -1,0 +1,73 @@
+body {
+	background: gray;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	padding: 20px;
+	letter-spacing: .5px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	font-size: 230%;
+}
+
+button {
+	background: none;
+	color: steelblue;
+	outline: none;
+	border: none;
+	height: 30px;
+	padding: auto;
+	letter-spacing: 1px;
+	font-weight: 700;
+	transition: all .3s;
+	text-transform: uppercase;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+	font-weight: 700;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	text-align: center;
+	background: white;
+	height: 30px;
+	width; 100%;
+	margin: 0 auto;
+	letter-spacing: 1px;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 640px;
+}
+
+#questionDisplay {
+	font-size: 1.1em;
+}
+
+.square {
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 15%;
+	transition: all .3s;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
